@@ -19,12 +19,6 @@ test {
     useJUnitPlatform()
 }
 
-jar {
-    manifest {
-        attributes("Main-Class": "it.sdm.HelloName")
-    }
-}
-
 application {
     mainClass = "it.sdm.HelloName"
 }
